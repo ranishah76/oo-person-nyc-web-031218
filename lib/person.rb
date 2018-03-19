@@ -63,10 +63,9 @@ class Person
    return "♪ Rub-a-dub just relaxing in the tub ♫"
  end
 
-  def work_out
+  def work_out(person)
     self.hygiene -= 3
-    hygiene=(@hygiene)
-    @happiness += 2
+    person.happiness += 2
     "♪ another one bites the dust ♫"
 
   end
